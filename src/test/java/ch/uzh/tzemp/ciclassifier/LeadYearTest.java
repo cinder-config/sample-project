@@ -17,4 +17,10 @@ public class LeadYearTest {
         LeapYear leapYear = new LeapYear();
         assertTrue(leapYear.isLeapYear(2024));
     }
+
+    @Test
+    public void failingTest() {
+        LeapYear leapYear = new LeapYear();
+        assertFalse(leapYear.isLeapYear(2024));
+    }
 }
