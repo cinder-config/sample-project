@@ -3,3 +3,5 @@ language: java
 cache:
   directories:
     - "$HOME/.cache"
+notifications:
+  email: 'timothy.zemp@uzh.ch'
