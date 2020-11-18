@@ -22,6 +22,6 @@ public class LeadYearTest {
     @Test
     public void failingTest() {
         LeapYear leapYear = new LeapYear();
-        assertFalse(leapYear.isLeapYear(2024));
+        assertFalse(leapYear.isLeapYear(2023));
     }
 }
